@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
 h1 {
     align-items: center;
+    font-family: "Roboto", sans-serif, 300;
+
 }
 html {
     background-color: rgb(241, 241, 241);
 }
 
 body {
-    font-family: "Roboto", Thin 100 ;
+    font-family: "Roboto", sans-serif;
 }
+
+ /* To to compile your .scss file into a css file I used this command in my project's folder cmd "sass (scss file location):(css file location)"*/
+/* To do it while I'm working on it I simply added the --watch parameter in the command like this : "sass --watch (scss file location):(css file location)"*/
