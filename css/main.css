@@ -3,9 +3,18 @@ h1 {
   font-family: "Roboto", sans-serif, 300; }
 
 html {
-  background-color: #f1f1f1; }
+  background-color: #fdfdfd; }
+
+p {
+  color: #a5a5a5; }
 
 body {
   font-family: "Roboto", sans-serif; }
+
+.submit {
+  font-family: "Roboto", sans-serif; }
+
+/* To to compile your .scss file into a css file I used this command in my project's folder cmd "sass (scss file location):(css file location)"*/
+/* To do it while I'm working on it I simply added the --watch parameter in the command like this : "sass --watch (scss file location):(css file location)"*/
 
 /*# sourceMappingURL=main.css.map */

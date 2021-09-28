@@ -4,12 +4,17 @@ h1 {
 
 }
 html {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(253, 253, 253);
 }
 
+p{
+
+    color: adjust-hue($color: #a5a5a5, $degrees: 0);
+}
 body {
     font-family: "Roboto", sans-serif;
 }
 
- /* To to compile your .scss file into a css file I used this command in my project's folder cmd "sass (scss file location):(css file location)"*/
+
+ /* To compile your .scss file into a css file I used this command in my project's folder cmd "sass (scss file location):(css file location)"*/
 /* To do it while I'm working on it I simply added the --watch parameter in the command like this : "sass --watch (scss file location):(css file location)"*/
